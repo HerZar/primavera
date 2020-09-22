@@ -23,6 +23,54 @@ public class Ticket {
 		this.velocidadLimite = velocidadLimite;
 		this.velocidadMedida = velocidadMedida;
 	}
+
+	public String getIdTicket() {
+		return idTicket;
+	}
+
+	public void setIdTicket(String idTicket) {
+		this.idTicket = idTicket;
+	}
+
+	public Date getFechaHora() {
+		return fechaHora;
+	}
+
+	public void setFechaHora(Date fechaHora) {
+		this.fechaHora = fechaHora;
+	}
+
+	public DatosVehiculo getDatosVehiculo() {
+		return datosVehiculo;
+	}
+
+	public void setDatosVehiculo(DatosVehiculo datosVehiculo) {
+		this.datosVehiculo = datosVehiculo;
+	}
+
+	public String getClima() {
+		return clima;
+	}
+
+	public void setClima(String clima) {
+		this.clima = clima;
+	}
+
+	public int getVelocidadLimite() {
+		return velocidadLimite;
+	}
+
+	public void setVelocidadLimite(int velocidadLimite) {
+		this.velocidadLimite = velocidadLimite;
+	}
+
+	public int getVelocidadMedida() {
+		return velocidadMedida;
+	}
+
+	public void setVelocidadMedida(int velocidadMedida) {
+		this.velocidadMedida = velocidadMedida;
+	}
 		
 
 	
