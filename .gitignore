@@ -1,0 +1,13 @@
+HELP.md
+target/
+
+src/test/
+src/main/resources
+.project
+.mvn/
+.settings/
+.classpath
+ejercicio.txt
+mvnw
+mvnw.cmd
+
